@@ -31,6 +31,8 @@ for (let i = 0; i < slides.length; i++) {
   slideDotsContainer.prepend(dot);
 }
 
+updateBanner(); 
+
 function updateBanner() {
   const currentSlide = slides[currentIndex];
   bannerImg.src = `./assets/images/slideshow/${currentSlide.image}`;
